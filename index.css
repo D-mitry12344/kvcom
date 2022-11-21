@@ -1,0 +1,36 @@
+body{
+	background: white;
+}
+
+.phone{
+	background: url("regit.png") no-repeat center;
+	width: 250px;
+	height: 41px;
+	border-color: transparent;
+	border-style: none;
+	padding-left: 30px;
+	position: absolute;
+	top: 210px;
+	left: 855px;
+	outline: none; border: none;
+}
+
+.tou{
+	margin-top: -10px;
+}
+
+.butt{
+	position: absolute;
+	top: 300px;
+	left: 865px;
+	width: 276px;
+	height: 40px;
+	background: url("but.png") no-repeat;
+	border-color: transparent;
+}
+
+.check{
+	position: absolute;
+	top: 262px;
+	left: 865px;
+}

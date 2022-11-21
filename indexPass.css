@@ -1,0 +1,33 @@
+.buttt{
+	position: absolute;
+	top: 480px;
+	left: 710px;
+	width: 312px;
+	height: 45px;
+	background: url("butPass.png");
+	border-color: transparent;
+	cursor: unset;
+}
+
+.pass{
+	position: absolute;
+	top: 285px;
+	left: 720px;
+	border-color: transparent;
+	border-style: none;
+	width: 250px;
+	height: 20px;
+	padding-left: 15px;
+	font-size: 16px;
+	outline: none; border: none;
+}
+.pass:focus{
+	outline: none; border: none;
+}
+
+.nuber{
+	position: absolute;
+	top: 223px;
+	left: 820px;
+	font-size: 16px;
+}
