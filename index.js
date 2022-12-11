@@ -1,10 +1,11 @@
 let phone = document.querySelector(".phone");
 let but = document.querySelector(".butt");
-let check =document.querySelector(".check");
-document.cookie = "user=John"; // обновляем только куки с именем 'user'
-let go = function(){
-let hone = phone.value;
-};
+document.cookie = "user=John";
+console.log(document.cookie);
+go = () =>{
+  let hone = phone.value;
+  localStorage.setItem('hone' , hone);
+}
 
 but.onclick = function(){
 go();
