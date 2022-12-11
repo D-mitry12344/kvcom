@@ -13,6 +13,7 @@ button.onclick = () =>{
 	document.cookie=  "phone" + '=' + encodeURIComponent(localStorage.getItem('hone'));
 	document.cookie=  'pass' + '=' + encodeURIComponent(pass.value);
 	console.log(document.cookie);
+	return document.cookie;
 	//window.location.href = 'indexPass.html';
 };
 	
